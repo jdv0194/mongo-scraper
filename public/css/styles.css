@@ -1,0 +1,187 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+a,
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  background: #c92f2f;
+  margin-bottom: 0;
+  width: 100vw;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  height: 150px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-nav {
+  padding-left: 200px;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-nav > li {
+  color: white;
+}
+
+.navbar-nav > li > a {
+  padding: 0;
+}
+
+.navbar-nav > li {
+  padding: 15px;
+  font-size: 18px;
+}
+
+.container-fluid {
+  margin-top: 25px;
+}
+
+.navbar-header {
+  width: 25%;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+
+.navbar-nav {
+  float: right;
+  padding-right: 50px;
+  width: 35%;
+}
+
+.navbar-brand {
+  float: none;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.scrape-btn,
+#save-article,
+#article-comment,
+#delete-comment,
+#save-comment {
+  width: 200px;
+  height: 50px;
+  background: white;
+  color: black;
+  float: left;
+  font-size: 1.3em;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0px 5px 1px;
+  margin-left: 250px;
+  margin-top: -3px;
+}
+
+.bg-img {
+  background: url("../img/sports-stadium.jpg");
+  width: 100vw;
+  height: 85vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-mask {
+  width: 100vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.landing-content {
+  position: absolute;
+  z-index: 2;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.landing-content h1 {
+  font-size: 4.5em;
+}
+
+.landing-content h2 {
+  margin-top: 15px;
+  color: #bc1212;
+}
+
+.article-section {
+  text-align: center;
+  background: white;
+}
+
+.article-section h2 {
+  font-size: 2.5em;
+  margin: 35px 0;
+}
+
+#article-content {
+  padding: 35px;
+  background: #c92f2f;
+  color: black;
+  margin: 50px 0 50px 75px;
+  border-radius: 8px;
+  position: relative;
+  left: 20%;
+}
+
+#article-content h2 {
+  font-size: 2em;
+  color: white;
+}
+
+#article-content p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+#save-article,
+#article-comment,
+#delete-comment {
+  float: none;
+  margin: 25px;
+  color: #bc1212;
+  box-shadow: none;
+  border: 2px solid #bc1212;
+}
+
+#save-comment {
+  float: none;
+  margin: 25px;
+  color: #c92f2f;
+  box-shadow: none;
+  border: 2px solid #c92f2f;
+}
+
+#save-article:hover,
+#article-comment:hover,
+#delete-comment:hover {
+  background: black;
+  border: 2px solid black;
+  color: white;
+  transition: 0.8s;
+}
+
+#save-comment:hover {
+  background: #c92f2f;
+  color: white;
+  border: 2px solid #c92f2f;
+  transition: 0.8s;
+}
+
+#comment-title {
+  font-size: 1.6em;
+  color: black;
+}
+
+#comments {
+  margin: 85px;
+}

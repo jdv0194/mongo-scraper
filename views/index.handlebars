@@ -1,0 +1,20 @@
+<div class="article-section">
+  {{#each articles}}
+  <div class="row">
+    <div class="col-lg-6" id="article-content">
+      <h2> {{this.title}} </h2>
+      <br>
+      <p> {{this.body}}</p>
+      <br>
+      <p> {{this.link}}</p>
+
+      <button type="button" data-id={{this._id}} id="save-article" data-favorited={{this.favorited}}>Save Article</button>
+      <button type="button" id='article-comment' data-id={{this._id}}>Comment</button>
+    </div>
+
+    <div class="col-lg-4" id="comments">
+
+    </div>
+  </div>
+  {{/each}}
+</div>
